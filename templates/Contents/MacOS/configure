@@ -1,0 +1,5 @@
+#!/bin/bash
+path=$(dirname "$0")
+#sh -c "export PATH=$path/../Resources:$PATH; cd $path/../; exec \"${SHELL:-sh}\""
+
+sh -c "echo Welcome to iOS Bundle Tools; export PATH=$path/../bin:$PATH; cd $path/../; exec \"${SHELL:-sh}\""

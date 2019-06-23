@@ -1,0 +1,5 @@
+#!/bin/bash
+path=$(dirname "$0")
+echo $path
+open -a "/Applications/Utilities/Terminal.app" $path/configure &
+exit 0
